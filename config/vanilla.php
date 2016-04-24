@@ -59,7 +59,7 @@ $GLOBALS['vanillaCacheConfig'] = [
 	'engines' => [
 		'file' => [
 			'laravel' => 'Esemve\\VanillaCache\\Engines\\FileEngine',
-			'vanilla' => __DIR__.'/../packages/esemve/vanillacache/vanilla/Engines/FileEngine.php',
+			'vanilla' => __DIR__.'/../vendor/esemve/vanillacache/vanilla/Engines/FileEngine.php',
 			'config' => [
 				'storage_folder' => realpath(__DIR__.'/../storage/').'/vanilla/'
 			]
