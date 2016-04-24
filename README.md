@@ -47,7 +47,7 @@ Because it is loading BEFORE Laravel, so you can't use any Laravel specified fun
 use \Vanilla;
 …
 
-  public function index(Request $request)
+  public function index(RoomRepository $roomRepository)
     {
         $rooms = $roomRepository->getAll();
 
