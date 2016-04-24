@@ -1,6 +1,6 @@
 # Vanilla Cache (v0.0.1)
 
-Vanilla Cache is a Cache System for Laravel 5.*. It's a response cache system, so you can cache the full html response, and **serve this next time without booting Laravel**. 
+Vanilla Cache is a Cache System for Laravel 5.X. It's a response cache system, so you can cache the full html response, and **serve this next time without booting Laravel**. 
 
 You can use this in shared webserver. The request time is max 10-20ms with this cache.
 
