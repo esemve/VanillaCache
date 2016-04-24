@@ -1,0 +1,13 @@
+{
+    "name": "esemve/vanillacache",
+    "description": "Powerful cache engine for Laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bence Kadar",
+            "email": "esemve@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
