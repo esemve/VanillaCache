@@ -17,7 +17,7 @@
     },
     "autoload": {
 	"psr-4": {
-	    "Esemve\\VanillaCache": "src/"
+	    "Esemve\\VanillaCache\\": "src/"
 	}
     }
 }
