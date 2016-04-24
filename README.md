@@ -36,7 +36,8 @@ Next step is to set up the CacheServer. It will serve cache BEFORE laravel has l
 "files": ["config/vanilla.php","vendor/esemve/vanillacache/vanilla/CacheServer.php"],
 ```
 
-Why is the config/vanilla.php is so weird?
+## Why is the config/vanilla.php is so weird?
+
 Because it is loading BEFORE Laravel, so you can't use any Laravel specified function in this file!
 
 
@@ -56,7 +57,7 @@ use \Vanilla;
     }
 ```
 
-**Vnilla::Cache($view,$sec)**
+**Vanilla::Cache($view,$sec)**
 
 Saves the view content for the actual url (include GET parameters) for 10 sec. If less than in 10 sec any user open this url, the CacheServer will serve the cache without booting Laravel.
 
@@ -64,7 +65,10 @@ Saves the view content for the actual url (include GET parameters) for 10 sec. I
 
 ## Engines
 VanillaCache contains a file engine default. You can create an engine (for example: mysql, redis etc). 
-How can you create an engine? config/vanilla.php
+
+
+## How can you create an engine? 
+config/vanilla.php
 
 ```php
 'file' => [
